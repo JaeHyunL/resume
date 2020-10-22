@@ -33,6 +33,7 @@
 <!-- 도커 aws -->
 
 ## 팀 프로잭트
+#### [얼굴 인식 출석 자동화 프로그램 ](https://github.com/slackid/Final_Capston_Forward).
 
 ## 개인 프로잭트 
 
