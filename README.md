@@ -33,10 +33,25 @@
 <!-- 도커 aws -->
 
 ## 팀 프로잭트
-#### [얼굴 인식 출석 자동화 프로그램 ](https://github.com/slackid/Final_Capston_Forward).
+
+#### [얼굴 인식 출석 자동화 프로그램 ](https://github.com/slackid/Final_Capston_Forward)
+* 사용기술 :
+<!-- 사진첨부 -->
+- Python / Flask
+- Angular
+- MYSQL 
+- Docker
+- GCP 
+
+#### [스미싱 탐지 프로그램](https://github.com/teamGolee/golee-server-python)
+* 사용기술 :
+- Python / Flask
+- Anroid studio
+- MYSQL 
+- AWS 
+- Google SafeBrowsing
 
 ## 개인 프로잭트 
-
 
 ## 경력 
 
