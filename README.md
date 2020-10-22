@@ -4,15 +4,15 @@
 
 <!-- 사진 -->
 
-* 이름 : 
-* 병역 : 
-* 취미 :
-* Email :
-* Github :
-* blog : 
+* 이름 : 이재현
+* 병역 : 필(2016-12~208-09)
+* 취미 : 운동
+* Email : swaa23@gmail.com
+* Github : github.com/JaehyunL
+* blog : https://edudeveloper.tistory.com/
 
 ~~~
-    MOTO:
+    MOTO: 매일 새롭게 신선하게
 ~~~
 
 
@@ -21,19 +21,18 @@
 
 #### Front Skills
 <!-- 아이콘 대충 자바스크립트, 타입스크립트 ,안드로이드스튜디오 구해와야지--> 
-
+-JavaScript,TypeScript,Android Studio
 
 #### Backend Skills
-
+-Java,Python
 <!-- 아이콘 자바 파이썬 구해와야지-->
 
 #### Dev Ops 
-
+-Docker,GCP,AWS
 
 <!-- 도커 aws -->
 
 ## 팀 프로잭트
-
 #### [얼굴 인식 출석 자동화 프로그램 ](https://github.com/slackid/Final_Capston_Forward)
 ###### 사용기술 :
 <!-- 사진첨부 -->
@@ -42,9 +41,12 @@
 - MYSQL 
 - Docker
 - GCP 
+###### 제작기간 : 
+- 2020-08~2020-10
 
 #### [스미싱 탐지 프로그램](https://github.com/teamGolee/golee-server-python)
 ###### 사용기술 :
+- 2020~04~2020-06
 - Python / Flask
 - Anroid studio
 - MYSQL 
