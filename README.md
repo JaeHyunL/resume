@@ -46,7 +46,7 @@
 
 #### [스미싱 탐지 프로그램](https://github.com/teamGolee/golee-server-python)
 ###### 사용기술 :
-- 2020~04~2020-06
+- 2020-04~2020-06
 - Python / Flask
 - Anroid studio
 - MYSQL 
