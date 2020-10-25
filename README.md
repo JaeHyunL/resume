@@ -2,7 +2,7 @@
 
 ## 소개
 
-<!-- 사진 -->
+![이미지 이름](https://github.com/JaeHyunL/resume/blob/main/KakaoTalk_20201026_013340414.jpg)
 
 * 이름 : 이재현
 * 병역 : 필(2016-12~208-09)
