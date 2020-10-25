@@ -46,14 +46,22 @@
 
 #### [스미싱 탐지 프로그램](https://github.com/teamGolee/golee-server-python)
 ###### 사용기술 :
-- 2020-04~2020-06
 - Python / Flask
 - Anroid studio
 - MYSQL 
 - AWS 
 - Google SafeBrowsing
+###### 제작기간:
+- 2020-04~2020-06
+
 
 ## 개인 프로잭트 
+#### [자바 GUI 기반 암호화 프로그램](https://github.com/JaeHyunL/JavaCiper)
+###### 사용기술 :
+ -JAVA / GUI
+ -JAVAFX
+###### 제작기간:
+- 2020-06~2020-06
 
 ## 경력 
 
