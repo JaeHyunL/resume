@@ -6,6 +6,7 @@
 <img src="https://github.com/JaeHyunL/resume/blob/main/aKakaoTalk_20201026_013340414.jpg" width="300" height="300">
 
 * 이름 : 이재현
+* 출생 : 1996.12.25 (만 23세)
 * 병역 : 필(2016-12~208-09)
 * 취미 : 운동
 * Email : swaa23@gmail.com
