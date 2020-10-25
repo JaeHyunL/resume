@@ -10,7 +10,7 @@
 * 병역 : 필(2016-12~2018-09)
 * 취미 : 운동
 * Email : swaa23@gmail.com
-* Github : github.com/JaehyunL
+* Github : https://github.com/JaehyunL
 * blog : https://edudeveloper.tistory.com/
 
 ~~~
