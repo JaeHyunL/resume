@@ -3,18 +3,19 @@
 ## 소개
 
 
-<img src="https://github.com/JaeHyunL/resume/blob/main/aKakaoTalk_20201026_013340414.jpg" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/48937399/210212490-e66255fa-4a3b-4528-b6ff-ccd71ef81c9e.jpg" width="300" height="300">
 
 * 이름 : 이재현
-* 출생 : 1996.12.25 (만 23세)
+* 출생 : 1996.12.25
 * 병역 : 필(2016-12~2018-09)
-* 취미 : 운동
+* 취미 : 싸이클
 * Email : swaa23@gmail.com
 * Github : https://github.com/JaehyunL
 * blog : https://edudeveloper.tistory.com/
+* githubIO: https://jaehyunl.github.io/
 
 ~~~
-    MOTO: 매일 새롭게 신선하게
+    MOTO: 음?
 ~~~
 
 
@@ -23,18 +24,55 @@
 
 #### Front Skills
 <!-- 아이콘 대충 자바스크립트, 타입스크립트 ,안드로이드스튜디오 구해와야지--> 
--JavaScript,TypeScript,Android Studio
+- JavaScript, TypeScript
+  - OpenLayer
+  - ES6
+- Android Studio
+  - (JAVA)
+- JAVA
+   - JavaFX, JavaSwing
+
 
 #### Backend Skills
--Java,Python
+- Python 
+  - Celery
+  - Flask
+  - FastAPI
+  - Flask Admin
+  - GeoServer
+  - PostgreSQL
+  - Rabbit MQ
+  - scheduler
+  - spatial Query
+
+
 <!-- 아이콘 자바 파이썬 구해와야지-->
 
 #### Dev Ops 
--Docker,GCP,AWS
+-Docker, GCP, AWS, K8s, Elasticsearch
 
 <!-- 도커 aws -->
 
 ## 팀 프로잭트
+
+#### WISS 광역감시망 (Code 미기재)
+- 2020-11~2021-04
+- 담당업무: 
+
+#### UL21 ( Code 미기재 )
+- 2021-05~2021-11
+- 담당업무: 
+
+#### SmartFarm
+- 2021-11~2022-11
+- 담당업무:
+#### 디지털 상황판
+- 2022-09~2023-01
+- 담당업무: 
+<details>
+<summary>Before (학생)</summary>
+
+
 #### [얼굴 인식 출석 자동화 프로그램 ](https://github.com/slackid/Final_Capston_Forward)
 ###### 사용기술 :
 <!-- 사진첨부 -->
@@ -65,8 +103,9 @@
 ###### 제작기간:
 - 2019-06~2019-06
 
+</details>
 ## 경력 
- - 신입 
+- 로딕스 2020.11 ~ 2023
  
 ## 수상경력
 -교내해킹방어대회(CTF)우수상
