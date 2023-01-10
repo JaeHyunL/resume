@@ -31,7 +31,8 @@
   - (JAVA)
 - JAVA
    - JavaFX, JavaSwing
-
+- Python
+  - PyQT5
 
 #### Backend Skills
 - Python 
@@ -54,21 +55,26 @@
 <!-- 도커 aws -->
 
 ## 팀 프로잭트
+#### 디지털 상황판 (Code 미기재)
+- 2022-09 ~ 2023-01
+- 담당업무: HTML 정적 내 검색 로직 구현, 기타 API 보조 작업
+- 사용기술: Selnium, Flask 
 
-#### WISS 광역감시망 (Code 미기재)
-- 2020-11~2021-04
-- 담당업무: 
-
-#### UL21 ( Code 미기재 )
-- 2021-05~2021-11
-- 담당업무: 
-
-#### SmartFarm
+#### 스마트팜 (Code 미기재)
 - 2021-11~2022-11
-- 담당업무:
-#### 디지털 상황판
-- 2022-09~2023-01
-- 담당업무: 
+- 담당업무: 백앤드 API 구현, 프론트 화면 구현, 외부데이터 수집, 3D 영상 모델링
+- 사용기술: Flask, React, OpenLayer, PostGresql ,OpenDronMap
+
+#### 달빛영상 기반 변화탐지 ( Code 미기재 )
+- 2021-05~2021-11
+- 담당업무: 위성 영상 수집(FTP) 자동화 프로그램 구축 및 데이터 파이프라인 구축, 외부기관 알고리즘 연동, API 구현
+- 사용기술: Scheduler, FTP, geoserver, Postgrsql, Flask, GDAL
+
+#### 국가해양영토 광역 감시망 구축 (Code 미기재)
+- 2020-11~2021-04
+- 담당업무: 데이터 파이프라인 구축, 외부기관 알고리즘 연동, API 구현
+- 사용기술: Celery, RabbitMQ, Flask, Postgresql, geoserver, SFTP, Docker, Docker-Swarm
+
 <details>
 <summary>Before (학생)</summary>
 
@@ -81,6 +87,7 @@
 - MYSQL 
 - Docker
 - GCP 
+
 ###### 제작기간 : 
 - 2020-08~2020-10
 
@@ -112,4 +119,4 @@
 
 ## 재학사항 
 ####
-- 중부대학교(정보보호학과) 2015-03 ~ 
+- 중부대학교(정보보호학과) 2015-03 ~ 2021.02
