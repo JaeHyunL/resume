@@ -15,7 +15,7 @@
 * githubIO: https://jaehyunl.github.io/
 
 ~~~
-    MOTO: 음?
+    MOTO: 어제보다는...
 ~~~
 
 
@@ -24,7 +24,7 @@
 
 #### Front Skills
 <!-- 아이콘 대충 자바스크립트, 타입스크립트 ,안드로이드스튜디오 구해와야지--> 
-- 🥉 JavaScript, TypeScript(ES6) - React, NextJS
+- JavaScript, TypeScript(ES6) - React, NextJS
 - Android Studio (JAVA)
 - JAVA - JavaFX, JavaSwing
 - Pytho - PyQT5
@@ -32,7 +32,7 @@
 #### Backend Skills
 - 🥇 Python - Flask, FastAPI, 
 - Celery, rabbitmq
-- ORM(SQLAlcmey), spatial Query, GeoServer, GDAL
+- 🥉ORM(SQLAlcmey), spatial Query, GeoServer, GDAL
 - RDBM(Postgresql)
 - selenium, scheduler
 
@@ -95,8 +95,8 @@
 ###### 사용기술 :
 - Python / Flask
 - Anroid studio
-- MYSQL 
-- AWS 
+- MYSQL
+- AWS
 - Google SafeBrowsing
 ###### 제작기간:
 - 2020-04~2020-06
@@ -111,6 +111,7 @@
 - 2019-06~2019-06
 
 </details>
+
 ## 경력 
 - 로딕스 2020.11 ~ 재직중
  
