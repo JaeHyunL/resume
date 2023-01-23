@@ -14,9 +14,7 @@
 * blog : https://edudeveloper.tistory.com/
 * githubIO: https://jaehyunl.github.io/
 
-~~~
-    MOTO: 어제보다는...
-~~~
+
 
 
 
@@ -41,7 +39,6 @@
 
 #### Dev Ops
 - 🥈Docker, DockeSwarm, K8s, GCP, AWS,
-👑👍 🥇  🥈 🥉
 #### 
 
 <!-- 도커 aws -->
@@ -114,7 +111,7 @@
 
 ## 경력 
 - 로딕스 2020.11 ~ 재직중
- 
+
 ## 수상경력
 -교내해킹방어대회(CTF)우수상
 
