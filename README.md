@@ -6,13 +6,21 @@
 
 * 이름 : 이재현
 * 출생 : 1996.12.25
-* 병역 : 필(2016-12~2018-09)
-* 취미 : 싸이클
 * Email : swaa23@gmail.com
 * Github : https://github.com/JaehyunL
 * blog : https://edudeveloper.tistory.com/
 * githubIO: https://jaehyunl.github.io/
 * 코맨트: 외부 API 연동 및 데이터 수집 자동화에 능숙합니다, 완벽한 코드보다는 수정이 쉬운 코드를 지향합니다.
+
+## 경력 
+
+- 로딕스 2020.11 ~ 재직중
+
+
+
+## 재학사항 
+
+- 중부대학교(정보보호학과) 2015-03 ~ 2021.02
 
 
 
@@ -31,17 +39,34 @@
 - RDBM(Postgresql)
 - selenium, scheduler
 
-<!-- 아이콘 자바 파이썬 구해와야지-->
+
 
 #### Dev Ops
 - 🥈Docker, DockeSwarm, K8s, GCP, AWS
 
+- 사내 Gitlab운용 경험, NAS운용 경험(Synology)
+- CI:   Gitlab 파이프라인 구현
 
 
-<!-- 도커 aws -->
 
 ## 프로잭트
+#### 스마트현장 재난 가이던스 시스템
+
+- 2023.02 ~ 2023.11
+
+- 담당업무: API작업, 스케줄링, 데이터 파이프라인 구축, OSM 전세계 구축
+
+- 사용기술: FastAPI, Docker, Celery, OSM, File-Stream
+
+- 주요성과: Docker OSM 부하 조절(Swap Memory, 캐싱값 조절 등),
+  ISO-3166 코드 매칭(https://pypi.org/project/iso3166KOR/) 라이브러리 제작
+
+  
+
+
+
 #### 디지털 상황판
+
 - 2022-09 ~ 2023-01
 - 담당업무: HTML 정적 내 검색 로직 구현, 기타 API 보조 작업
 - 주요성과: 크롤링을 통한 HTML상 데이터 검색 로직 구현 
@@ -50,8 +75,6 @@
 <img src=https://user-images.githubusercontent.com/48937399/215054336-3a863743-5fb0-4d43-b1f2-6397a8f5d17a.png>
 
 </>
-
-
 
 
 
@@ -89,6 +112,8 @@
 <img src=https://user-images.githubusercontent.com/48937399/211484413-e1f256e8-eca0-441d-aa53-95345a0bbe24.png>
 데이터 수집 전처리 파이프라인 코드
 </img>
+
+
 
 <details>
 <summary>Before (학생)</summary>
@@ -129,8 +154,16 @@
 
 </details>
 
-## 경력 
-- 로딕스 2020.11 ~ 재직중
 
-## 재학사항 
-- 중부대학교(정보보호학과) 2015-03 ~ 2021.02
+
+## Other..
+
+#### 🗒️적즉적인 오픈소스 활용, 참여
+
+![image](https://user-images.githubusercontent.com/48937399/284044589-3c9d3f2b-6a1e-4da0-8479-5217d9d2ae00.png)
+
+#### 👍스킬UP! 블로그 포스팅 및 깃허브 잔디심기
+
+![image](https://user-images.githubusercontent.com/48937399/284044667-861122bd-beea-40cc-9f70-5e1d755cb9f9.png)
+
+![image](https://user-images.githubusercontent.com/48937399/284044711-8ec29f88-31ae-4494-8bb0-bb8123b68f59.png)
