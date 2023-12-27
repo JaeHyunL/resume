@@ -49,7 +49,7 @@
 
 
 
-## 프로잭트
+## 프로젝트
 #### 스마트현장 재난 가이던스 시스템
 
 - 2023.02 ~ 2023.11
@@ -63,8 +63,6 @@
 
   
 
-
-
 #### 디지털 상황판
 
 - 2022-09 ~ 2023-01
@@ -72,9 +70,7 @@
 - 주요성과: 크롤링을 통한 HTML상 데이터 검색 로직 구현 
 - 사용기술: Selnium, Flask, BS4
 
-<img src=https://user-images.githubusercontent.com/48937399/215054336-3a863743-5fb0-4d43-b1f2-6397a8f5d17a.png>
-
-</>
+<!--<img src=https://user-images.githubusercontent.com/48937399/215054336-3a863743-5fb0-4d43-b1f2-6397a8f5d17a.png> -->
 
 
 
@@ -96,7 +92,7 @@
 - 담당업무: 위성 영상 수집(FTP) 자동화 프로그램 구축 및 데이터 파이프라인 구축, 외부기관 알고리즘 연동, API 구현
 - 사용기술: Scheduler, FTP, geoserver, Postgrsql, Flask, GDAL
 - 주요성과: 실시간 Schedule을 통한 데이터(위성영) 전처리 과정 자동화
-- <img src=https://user-images.githubusercontent.com/48937399/211487072-28928ce9-667f-4964-9c2c-223ad10c60d5.png>
+- <!-- <img src=https://user-images.githubusercontent.com/48937399/211487072-28928ce9-667f-4964-9c2c-223ad10c60d5.png> -->
 
 
 
