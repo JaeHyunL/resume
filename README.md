@@ -33,7 +33,7 @@
 - Python - PyQT5
 
 #### Backend Skills
-- 🥇 Python - Flask, FastAPI, 
+- 🥇 Python - Flask, FastAPI, Spring
 - Celery, rabbitmq
 - 🥉ORM(SQLAlcmey), spatial Query, GeoServer, GDAL
 - RDBM(Postgresql)
