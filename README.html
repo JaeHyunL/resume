@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="%EC%9D%B4%EB%A0%A5%EC%84%9C">이력서</h1>
+<h2 id="%EC%86%8C%EA%B0%9C">소개</h2>
+<img src="https://user-images.githubusercontent.com/48937399/210212490-e66255fa-4a3b-4528-b6ff-ccd71ef81c9e.jpg" width="300" height="300">
+<ul>
+<li>이름 : 이재현</li>
+<li>출생 : 1996.12.25</li>
+<li>Email : swaa23@gmail.com</li>
+<li>Github : https://github.com/JaehyunL</li>
+<li>blog : https://edudeveloper.tistory.com/</li>
+<li>코맨트: 데이터 흐름 설계부터 AI 모델 서빙까지, 현장 중심의 실무 프로젝트를 수행해온 백엔드/AI 개발자입니다.</li>
+</ul>
+<h2 id="%F0%9F%92%BC-%EA%B2%BD%EB%A0%A5">💼 경력</h2>
+<ul>
+<li>로딕스 2020.11 ~ 재직중
+<ul>
+<li>GIS 기반 회사로 R&amp;D 프로젝트 및 SI 프로젝트 위주로 업무 경험을 쌓았습니다.</li>
+</ul>
+</li>
+</ul>
+<h2 id="%F0%9F%8E%93%ED%95%99%EB%A0%A5">🎓학력</h2>
+<ul>
+<li>중부대학교(정보보호학과) 2015-03 ~ 2021.02</li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h2 id="%F0%9F%9B%A0%EF%B8%8F-%EA%B8%B0%EC%88%A0-%EC%8A%A4%ED%83%9D">🛠️ 기술 스택</h2>
+<h4 id="front-skills">Front Skills</h4>
+<ul>
+<li>JavaScript, TypeScript(ES6) - React, NextJS</li>
+<li>Android Studio (JAVA)</li>
+<li>JAVA - JavaFX, JavaSwing</li>
+<li>Python - PyQT5</li>
+</ul>
+<h4 id="backend-skills">Backend Skills</h4>
+<ul>
+<li>🥇 Python - Flask, FastAPI, Django</li>
+<li>ORM, SQLAlchemy, Postgresql, MySQL</li>
+<li>spatial Query, GeoServer, GDAL</li>
+<li>RDB</li>
+<li>Celery, rabbitmq, Redis</li>
+<li>selenium, scheduler</li>
+<li>🥉 Torch, huggingFace</li>
+<li>Swagger / ReDoc</li>
+<li>Postman, Pytest</li>
+<li>Java - Spring</li>
+</ul>
+<h4 id="dev-ops">Dev Ops</h4>
+<ul>
+<li>🥈Docker, DockeSwarm, K8s, GCP, AWS</li>
+<li>사내 Gitlab운용 경험, NAS운용 경험(Synology)</li>
+<li>CI: Gitlab 파이프라인 구현</li>
+</ul>
+<h4 id="aiml">AI/ML</h4>
+<ul>
+<li>CycleGAN, StyleGAN</li>
+<li>Stable Diffusion, Gen-2</li>
+<li>BERT, GPT3.5, GPT4</li>
+<li>YOLO, LightGlue, SuperGlue</li>
+</ul>
+<div style="page-break-after: always;"></div>
+<h2 id="%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8">프로젝트</h2>
+<h4 id="%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EA%B8%B0%EB%B0%98-%EB%9D%BC%EC%9D%B4%EB%8B%A4-%EB%B0%8F-%EC%97%B4%EC%98%81%EC%83%81-%EC%9C%B5%ED%95%A9%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%95%BC%EA%B0%84-%EC%83%81%ED%99%A9%EC%9D%B8%EC%A7%80-%EA%B8%B0%EC%88%A0">인공지능 기반 라이다 및 열영상 융합을 통한 야간 상황인지 기술</h4>
+<ul>
+<li>2024.03 ~ 2025.02</li>
+<li>담당업무: 카메라 to 데이터 모델 파이프라인 처리, GAN 모델 Train 및 Fine Tuning</li>
+<li>사용기술: OpenCV, Pytorch, ML(CycleGAN, UNSB, Lightglue)</li>
+<li>주요성과: 다중밴드를 통한 ML모델 학습, 8비트 모델 16비트 변환, 센서간 켈리브레이션 수행, 모델 서빙</li>
+<li><a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003182603">관련논문</a></li>
+</ul>
+<p align="center">
+    <img src=images/430758070-80da0e27-9976-4df7-9b0e-7e2c60f4c99a.png width=400/>
+</p>
+<h4 id="%EC%84%A0%EB%B0%95-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81-%EC%8B%9C%EC%8A%A4%ED%85%9C">선박 모니터링 시스템</h4>
+<ul>
+<li>2023.02 ~ 2024.02</li>
+<li>담당업무: API작업, 데이터 파이프라인 구축, 스케줄링, 불법선박 탐지 알고리즘 연동</li>
+<li>사용기술: Flask, Celery, ORM, Docker</li>
+<li>주요성과: 외부기관 알고리즘 수행 사이클 로직 구축 [데이터 수집, 전처리, 후처리],
+AIS 데이터 핸들링 (일 약 2천만 건),
+긴급사항 알림기능 (MMS, Email, 카카오톡)</li>
+</ul>
+<p align="center">
+    <img src=images\336716300-c0c499e2-76de-4043-bd74-1e1ce303df03.png width=400/>
+</p>
+<h4 id="%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%98%84%EC%9E%A5-%EC%9E%AC%EB%82%9C-%EA%B0%80%EC%9D%B4%EB%8D%98%EC%8A%A4-%EC%8B%9C%EC%8A%A4%ED%85%9C">스마트현장 재난 가이던스 시스템</h4>
+<ul>
+<li>2023.02 ~ 2023.11</li>
+<li>담당업무: API작업, 스케줄링, 데이터 파이프라인 구축, OSM 전세계 구축</li>
+<li>사용기술: FastAPI, Docker, Celery, OSM, File-Stream</li>
+<li>주요성과: Docker OSM 부하 조절(Swap Memory, 캐싱값 조절 등),
+ISO-3166 코드 매칭(https://pypi.org/project/iso3166KOR/) 라이브러리 제작</li>
+</ul>
+<h4 id="%EB%94%94%EC%A7%80%ED%84%B8-%EC%83%81%ED%99%A9%ED%8C%90">디지털 상황판</h4>
+<ul>
+<li>2022-09 ~ 2023-01</li>
+<li>담당업무: HTML 정적 내 검색 로직 구현, 기타 API 보조 작업</li>
+<li>주요성과: 크롤링을 통한 HTML상 데이터 검색 로직 구현</li>
+<li>사용기술: Selnium, Flask, BS4</li>
+</ul>
+<p align="center">
+    <img src=https://user-images.githubusercontent.com/48937399/215054336-3a863743-5fb0-4d43-b1f2-6397a8f5d17a.png width=400 />
+</p>
+<h4 id="%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8C%9C">스마트팜</h4>
+<ul>
+<li>2021-11~2022-11</li>
+<li>담당업무: 백앤드 API 구현, 프론트 화면 구현, 외부데이터 수집, 정사영상제작(드론이미지)</li>
+<li>주요성과: 비 정제 데이터 수집 자동화</li>
+<li>사용기술: Flask, React, OpenLayer, PostGresql ,OpenDronMap</li>
+<li><a href="https://github.com/JaeHyunL/JaeHyunL/blob/master/10.40-5-51-1.pdf">관련논문</a></li>
+</ul>
+<p align="center">
+    <img src=images/336712730-da48e945-919b-4e7c-8731-0f95c1c2f6e4.png width="400">
+</P>
+<h4 id="%EB%8B%AC%EB%B9%9B%EC%98%81%EC%83%81-%EA%B8%B0%EB%B0%98-%EB%B3%80%ED%99%94%ED%83%90%EC%A7%80">달빛영상 기반 변화탐지</h4>
+<ul>
+<li>2021-05 ~ 2021-11</li>
+<li>담당업무: 위성 영상 수집(FTP) 자동화 프로그램 구축 및 데이터 파이프라인 구축, 외부기관 알고리즘 연동, API 구현</li>
+<li>사용기술: Scheduler, FTP, geoserver, Postgrsql, Flask, GDAL</li>
+<li>주요성과: 실시간 Schedule을 통한 데이터(위성영) 전처리 과정 자동화</li>
+</ul>
+<p align="center">
+    <img src=https://user-images.githubusercontent.com/48937399/211487072-28928ce9-667f-4964-9c2c-223ad10c60d5.png width=400>
+</p>
+<h4 id="%EA%B5%AD%EA%B0%80%ED%95%B4%EC%96%91%EC%98%81%ED%86%A0-%EA%B4%91%EC%97%AD-%EA%B0%90%EC%8B%9C%EB%A7%9D-%EA%B5%AC%EC%B6%95">국가해양영토 광역 감시망 구축</h4>
+<ul>
+<li>2020-11 ~ 2021-04</li>
+<li>담당업무: 데이터 파이프라인 구축, 외부기관 알고리즘 연동, API 구현</li>
+<li>사용기술: Celery, RabbitMQ, Flask, Postgresql, geoserver, SFTP, Docker, Docker-Swarm</li>
+<li>주요 성과: 쿼리 조회시 데이터 크기로(조회시 약 3GB) 인한 메모리 이슈 현상 개선(페이징 처리) ,데이터 수집 전처리 파이프라인 코드</li>
+<li><a href="https://www.youtube.com/watch?v=2mr2IqzynXc">국토 광역감시망 소개 영상</a></li>
+</ul>
+<p align="center">
+    <img src=https://user-images.githubusercontent.com/48937399/211484413-e1f256e8-eca0-441d-aa53-95345a0bbe24.png width=400>
+    </img>
+</p>
+<div style="page-break-after: always;"></div>
+<h4 id="%F0%9F%91%8D%EC%8A%A4%ED%82%ACup">👍스킬UP!</h4>
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>내용</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>블로그</td>
+<td><img src=https://user-images.githubusercontent.com/48937399/284044667-861122bd-beea-40cc-9f70-5e1d755cb9f9.png width=400/></td>
+</tr>
+<tr>
+<td>Github</td>
+<td><img src=https://user-images.githubusercontent.com/48937399/284044711-8ec29f88-31ae-4494-8bb0-bb8123b68f59.png width=400/></td>
+</tr>
+<tr>
+<td>Kaggle</td>
+<td><img src=images\430758070-80da0e27-9976-4df7-9b0e-7e2c60f4c60a.png width=400 /></td>
+</tr>
+<tr>
+<td>OpenSource</td>
+<td><img src=https://user-images.githubusercontent.com/48937399/284044589-3c9d3f2b-6a1e-4da0-8479-5217d9d2ae00.png width=400 /></td>
+</tr>
+</tbody>
+</table>
+<div style="page-break-after: always;"></div>
+<details>
+<summary>Before (학생)</summary>
+<h4 id="%EC%96%BC%EA%B5%B4-%EC%9D%B8%EC%8B%9D-%EC%B6%9C%EC%84%9D-%EC%9E%90%EB%8F%99%ED%99%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8"><a href="https://github.com/slackid/Final_Capston_Forward">얼굴 인식 출석 자동화 프로그램 </a></h4>
+<h6 id="%EC%82%AC%EC%9A%A9%EA%B8%B0%EC%88%A0">사용기술 :</h6>
+<p>http://isweb.joongbu.ac.kr/~jbuis/2020/ppt-2020-4.pdf</p>
+<ul>
+<li>Python / Flask</li>
+<li>Angular</li>
+<li>MYSQL</li>
+<li>Docker</li>
+<li>GCP</li>
+</ul>
+<h6 id="%EC%A0%9C%EC%9E%91%EA%B8%B0%EA%B0%84">제작기간 :</h6>
+<ul>
+<li>2020-08~2020-10</li>
+</ul>
+<h4 id="%EC%8A%A4%EB%AF%B8%EC%8B%B1-%ED%83%90%EC%A7%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8"><a href="https://github.com/teamGolee/golee-server-python">스미싱 탐지 프로그램</a></h4>
+<h6 id="%EC%82%AC%EC%9A%A9%EA%B8%B0%EC%88%A0">사용기술 :</h6>
+<ul>
+<li>Python / Flask</li>
+<li>Anroid studio</li>
+<li>MYSQL</li>
+<li>AWS</li>
+<li>Google SafeBrowsing</li>
+</ul>
+<h6 id="%EC%A0%9C%EC%9E%91%EA%B8%B0%EA%B0%84">제작기간:</h6>
+<ul>
+<li>2020-04~2020-06</li>
+</ul>
+<h4 id="%EC%9E%90%EB%B0%94-gui-%EA%B8%B0%EB%B0%98-%EC%95%94%ED%98%B8%ED%99%94-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8"><a href="https://github.com/JaeHyunL/JavaCiper">자바 GUI 기반 암호화 프로그램</a></h4>
+<h6 id="%EC%82%AC%EC%9A%A9%EA%B8%B0%EC%88%A0">사용기술 :</h6>
+<p>-JAVA /**** GUI
+-JAVAFX</p>
+<h6 id="%EC%A0%9C%EC%9E%91%EA%B8%B0%EA%B0%84">제작기간:</h6>
+<ul>
+<li>2019-06~2019-06</li>
+</ul>
+</details>
+
+</body>
+</html>
