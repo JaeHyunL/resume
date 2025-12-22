@@ -13,7 +13,7 @@
 
 ## 💼 경력
 
-- 로딕스 2020.11 ~ 2025.09
+- 로딕스 2020.11 ~ 2026.01
   - GIS 기반 회사로 R&D 프로젝트 및 SI 프로젝트 위주로 업무 경험을 쌓았습니다.
 
 ## 🎓학력
@@ -26,37 +26,29 @@
 
 #### Front Skills
 
-- JavaScript, TypeScript(ES6) - React, NextJS
-
-- Android Studio (JAVA)
-- JAVA - JavaFX, JavaSwing
-- Python - PyQT5
+- 웹프론트: JavaScript, TypeScript(ES6) - React, NextJS
+- 앱프론트: Python - PyQT5
 
 #### Backend Skills
 
-- 🥇 Python - Flask, FastAPI, Django
-
-- ORM, SQLAlchemy, Postgresql, MySQL
-- spatial Query, GeoServer, GDAL
-- RDB
-- Celery, rabbitmq, Redis
-- selenium, scheduler
-- 🥉 Torch, huggingFace
-- Swagger / ReDoc
-- Postman, Pytest
-- Java - Spring
+- 백앤드: 🥇 Python - Flask, FastAPI, Django
+- 데이터베이스: ORM, SQLAlchemy, Postgresql, MySQL
+- GIS: spatial Query, GeoServer, GDAL
+- 분산처리: Celery, rabbitmq, Redis
+- 자동화: selenium, scheduler
+- AI모델 사용: 🥉 Torch, huggingFace
+- API 문서화: Swagger / ReDoc
+- 테스트: Postman, Pytest
 
 #### Dev Ops
 
-- 🥈Docker, DockeSwarm, K8s, GCP, AWS
-
-- 사내 Gitlab운용 경험, NAS운용 경험(Synology)
-- CI: Gitlab 파이프라인 구현
+- 배포: 🥈Docker, DockeSwarm, K8s, GCP, AWS
+- CI/CD: Gitlab 파이프라인 구현
 
 #### AI/ML
 
-- LangChain
-
+- LangChain/LangGraph
+------모델-------
 - CycleGAN, StyleGAN
 - Stable Diffusion, Gen-2
 - LLM, BERT, GPT3.5, GPT4
@@ -68,13 +60,14 @@
 
 #### 클라우드 네이티브 전환사업
 
-- 2025.01 ~ 2025.09
+- 2025.01 ~ 2025.12
 
 - 담당업무: 기존 레거시 시스템 웹 FE 통합(주제도, 관리자페이지), GIS 관련 자료 핸들링
 - 사용기술: React, NextJS, Geoserver
 - 주요성과: 기존 레거시 12개 시스템 -> 1개 프로잭트 클라우드 서버로 통폐합
 - 개발주소: <a href="https://uljusafe.uljudata.or.kr/">링크 </a>
-  <img src=images/클라우드네이티브사업.png width=400/>
+
+<img src=images/클라우드네이티브사업.png width=400/>
 
 #### 인공지능 기반 라이다 및 열영상 융합을 통한 야간 상황인지 기술
 
@@ -105,11 +98,19 @@
 
 #### 스마트현장 재난 가이던스 시스템
 
-- 2023.02 ~ 2023.11
-- 담당업무: API작업, 스케줄링, 데이터 파이프라인 구축, OSM 전세계 구축
-- 사용기술: FastAPI, Docker, Celery, OSM, File-Stream
+- 2023.02 ~ 2025.12
+- 담당업무: API작업, 스케줄링, 데이터 파이프라인 구축,
+- 사용기술: FastAPI, Docker, Celery, File-Stream
 - 주요성과: Docker OSM 부하 조절(Swap Memory, 캐싱값 조절 등),
   ISO-3166 코드 매칭(<https://pypi.org/project/iso3166KOR/>) 라이브러리 제작
+
+
+#### 다중위성영상 분석 시스템 구축
+
+- 2023.02 ~ 2023.12
+- 담당업무: 데이터 수집, 위성 영상 프로세싱(밴드조합), OSM 전세계 구축
+- 사용기술: FlaskAPI, Celery
+- 주요성과: 다중위성 위성영상 전처리 및 타일링 (각 조합 및 밴드가 다른 영상을 설계 및 디자인)
 
 #### 디지털 상황판
 
