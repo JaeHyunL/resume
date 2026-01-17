@@ -48,7 +48,7 @@
 #### AI/ML
 
 - LangChain/LangGraph
-------모델-------
+--- 모델 ---
 - CycleGAN, StyleGAN
 - Stable Diffusion, Gen-2
 - LLM, BERT, GPT3.5, GPT4
@@ -103,7 +103,9 @@
 - 사용기술: FastAPI, Docker, Celery, File-Stream
 - 주요성과: Docker OSM 부하 조절(Swap Memory, 캐싱값 조절 등),
   ISO-3166 코드 매칭(<https://pypi.org/project/iso3166KOR/>) 라이브러리 제작
-
+<p align="center">
+    <img src=https://private-user-images.githubusercontent.com/48937399/537117395-65661fed-f20c-40fe-9c59-eddf258dedeb.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg2NDY5NDIsIm5iZiI6MTc2ODY0NjY0MiwicGF0aCI6Ii80ODkzNzM5OS81MzcxMTczOTUtNjU2NjFmZWQtZjIwYy00MGZlLTljNTktZWRkZjI1OGRlZGViLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE3VDEwNDQwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcyN2RjOTZhYTA2MjZiYzM0ZDZlYWExNTE0ZjRlOGZmZDI5OGM4MDNlMjQwZDI2MDgwZmZjMTUxODJjYThhZDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.X0LpjvkxDOcWLOTnbfCjtx1IQjv1UZssBnSNZfR5ig0  />
+</p>
 
 #### 다중위성영상 분석 시스템 구축
 
@@ -111,7 +113,9 @@
 - 담당업무: 데이터 수집, 위성 영상 프로세싱(밴드조합), OSM 전세계 구축
 - 사용기술: FlaskAPI, Celery
 - 주요성과: 다중위성 위성영상 전처리 및 타일링 (각 조합 및 밴드가 다른 영상을 설계 및 디자인)
-
+<p align="center">
+    <img src=https://private-user-images.githubusercontent.com/48937399/537117225-c3f36f33-125e-4222-b381-8fa7dd34f013.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg2NDY4MjIsIm5iZiI6MTc2ODY0NjUyMiwicGF0aCI6Ii80ODkzNzM5OS81MzcxMTcyMjUtYzNmMzZmMzMtMTI1ZS00MjIyLWIzODEtOGZhN2RkMzRmMDEzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTE3VDEwNDIwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcyMmNiODk5N2ZhNWI0NDc3ODg5ZDEyOTE4ZDRlYjM1MGJkNDExNTJjZTkxY2QyZjZiMGE3MzY1ZWJmYjE3YmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-htAl642rm0sB_00_Nvm5xbBmv49u0Fr124gNkExagc />
+</p>
 #### 디지털 상황판
 
 - 2022-09 ~ 2023-01
@@ -165,10 +169,10 @@
 
 | 항목       | 내용                                                                                                                          |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| 블로그     | <img src=<https://user-images.githubusercontent.com/48937399/284044667-861122bd-beea-40cc-9f70-5e1d755cb9f9.png> width=400/>  |
-| Github     | <img src=<https://user-images.githubusercontent.com/48937399/284044711-8ec29f88-31ae-4494-8bb0-bb8123b68f59.png> width=400/>  |
+| 블로그     | <img src=https://user-images.githubusercontent.com/48937399/284044667-861122bd-beea-40cc-9f70-5e1d755cb9f9.png width=400 />  |
+| Github     | <img src=https://user-images.githubusercontent.com/48937399/284044711-8ec29f88-31ae-4494-8bb0-bb8123b68f59.png width=400 />  |
 | Kaggle     | <img src=images\430758070-80da0e27-9976-4df7-9b0e-7e2c60f4c60a.png width=400 />                                               |
-| OpenSource | <img src=<https://user-images.githubusercontent.com/48937399/284044589-3c9d3f2b-6a1e-4da0-8479-5217d9d2ae00.png> width=400 /> |
+| OpenSource | <img src=https://user-images.githubusercontent.com/48937399/284044589-3c9d3f2b-6a1e-4da0-8479-5217d9d2ae00.png width=400 /> |
 
 <div style="page-break-after: always;"></div>
 
